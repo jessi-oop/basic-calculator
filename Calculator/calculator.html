@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="calculator.css" />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="calc-container">
+      <div class="display-area">
+        <input type="text" id="display" readonly />
+      </div>
+
+      <div class="buttons">
+        <input class="button-forms" type="button" id="all-clear" value="AC" />
+        <input class="button-forms" type="button" id="modulo" value="%" />
+        <input class="button-forms" type="button" id="divide" value="/" />
+        <input class="button-forms" type="button" id="multiply" value="*" />
+
+        <input class="button-forms" type="button" id="num7" value="7" />
+        <input class="button-forms" type="button" id="num8" value="8" />
+        <input class="button-forms" type="button" id="num9" value="9" />
+        <input class="button-forms" type="button" id="subtract" value="-" />
+
+        <input class="button-forms" type="button" id="num4" value="4" />
+        <input class="button-forms" type="button" id="num5" value="5" />
+        <input class="button-forms" type="button" id="num6" value="6" />
+        <input class="button-forms" type="button" id="add" value="+" />
+
+        <input class="button-forms" type="button" id="num1" value="1" />
+        <input class="button-forms" type="button" id="num2" value="2" />
+        <input class="button-forms" type="button" id="num3" value="3" />
+        <input class="button-forms" type="button" id="equals" value="=" />
+
+        <input class="button-forms" type="button" id="num0" value="0" />
+        <input class="button-forms" type="button" id="decimal" value="." />
+        <input class="button-forms" type="button" id="clear" value="C" />
+      </div>
+    </div>
+  </body>
+</html>
